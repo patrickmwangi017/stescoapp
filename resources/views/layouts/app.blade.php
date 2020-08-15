@@ -273,7 +273,7 @@
                                 <!-- <li class="user-body"> -->
 
                                     <!-- /.row -->
-                                </li>
+                                <!-- </li> -->
                                 <!-- Menu Footer-->
                                 <li class="user-footer">
                                 <div class="pull-left">
@@ -383,7 +383,7 @@
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="{{URL::to('pendingorders')}}"><i class="fa fa-clone"></i> Pending Orders</a></li>
+                            <li><a href="{{URL::to('pendingorders')}}"><i class="fa fa-clone"></i> All Orders</a></li>
                             <li><a href="{{URL::to('deliveredorders')}}"><i class="fa fa-clone"></i> Delivered Orders</a></li>
                         </ul>
                     </li>

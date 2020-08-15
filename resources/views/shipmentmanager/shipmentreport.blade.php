@@ -19,7 +19,7 @@
     <div>Kanini Haraka Enterprises</div>
     <div>P.O Box 267,
     </div>
-    <div>Mweiga, Nyeri</div>
+    <div>Meru</div>
 
     <div><a href="mailto:davin@gmail.com">davin@gmail.com"</a></div>
   </div>

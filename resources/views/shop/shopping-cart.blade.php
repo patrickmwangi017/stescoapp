@@ -37,7 +37,7 @@ laravel shopping cart
           <span class="badge">{{ $product['qty'] }} {{$product ['item']['unit'] }}s</span>
           <strong>{{$product ['item']['productName'] }}</strong>
           <span class="label label-success">Ksh. {{$product['price'] }}</span>
-          <br>
+          
           <div class="btn-group">
           <a href="{{route('update-cart', ['id'=>($product['item']['id'])])}}" class="btn btn-primary fa fa-minus"> </a>
           </div>
@@ -73,7 +73,7 @@ laravel shopping cart
      @else
      <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-    <h2>Your Cart Is Empty</h2>
+    <h2 align="center">Your Cart Is Empty</h2>
     </div>
      </div>
      @endif

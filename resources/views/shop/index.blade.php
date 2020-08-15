@@ -38,13 +38,7 @@ laravel shopping cart
 <p id="me" class="description">{{ $product->Description}}</p>
 <div class="clearfix">
 <div class="pull-left price">Ksh. {{$product->Price}} per {{$product->unit}}</div>
-@if($product->quantity_available>0)
 <a href="{{route('product.addToCart', ['id'=> $product->id])}}" class="btn btn-success pull-right" role="button">Add to Cart</a>
-@else
-<br>
-<a href="#" class="btn btn-danger pull-right" role="button">Out of Stock</a>
-@endif
-
 </div>
 </div>
 </div>

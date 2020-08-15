@@ -19,7 +19,7 @@
     <div>Kanini Haraka Enterprises</div>
     <div>P.O Box 267,
     </div>
-    <div>Mweiga, Nyeri</div>
+    <div>Meru</div>
 
     <div><a href="mailto:davin@gmail.com">davin@gmail.com"</a></div>
   </div>
@@ -32,7 +32,6 @@
 <table style="padding-top: 10px;">
         <thead>
         <tr>
-	
           <th class="service">Payment ID</th>
           <th class="service">Cust Name</th>
           <th class="desc">Address</th>
@@ -50,9 +49,7 @@
           <tr>
             
             <td class="desc">{{$row->payment_id}}</td>
-
             <td class="desc">{{$row->name}}</td>
-            
             <td class="qty">{{$row->town}} <br> {{$row->postaladdress}}</td>
             <td class="unit">{{$row->totalexpected}}</td>
             <td class="unit">{{$row->created_at}}</td>

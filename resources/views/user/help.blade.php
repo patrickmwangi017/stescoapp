@@ -70,15 +70,16 @@
                         
                             <p>Click on the <strong class="text-success">Checkout button</strong> on the shopping cart page and you will be prompted to pay to complete your transaction</p>
                         <br>
+                        
                         <a href="#">
                             <i class="fa fa-tint"></i>
-                            <span class="text-danger">How can I make a booking?</span>
+                            <span class="text-danger">How do I pay for Delivery?</span>
                             <span class="pull-right-container">
                             </span>
                         </a>
                         
-                            <p>Click on the <strong class="text-success">Services link</strong> on the left side bar and search for the services you want to book then click on the book now button then check out and make your payment to complete your booking</p>
-                     
+                            <p>Delivery at Kanini Haraka Enterprises is <strong class="text-success">Totally Free</strong> </p>
+                        <br>
                     </li>
                     </ul>
 @endsection                    

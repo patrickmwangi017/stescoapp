@@ -3,7 +3,6 @@
 laravel shopping cart
 @endsection
 
-
 @section('content')
 @if(session('message'))
 <div class="alert alert-success">
@@ -27,8 +26,9 @@ laravel shopping cart
 <div class="row">  
     <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
     <h3  align="center">Lipa na M-Pesa</h3>
-    <h3  align="center">Till Number: (0718359977)</h3>
-    <h4  align="center">Your Total is: Ksh. {{$total}}</h4>
+    <h3  align="center">Till Number:<strong class="text-primary"> (0718359977)</strong></h3>
+    <h4  align="center">Your Total is: <strong class="text-primary">  Ksh. {{$total}}</strong></h4>
+    <h5  align="center"><u><strong>N.B: Delivery at Kanini Haraka Enterprises is </strong><strong class="text-success">Totally Free</strong></u></h5> 
     @if(count($errors)>0)
 <div class="alert alert-danger">
 @foreach($errors->all() as $error)
