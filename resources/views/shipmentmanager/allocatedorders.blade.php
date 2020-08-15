@@ -24,7 +24,7 @@
 <thead class="text-primary">
 <th>Order<br>Id</th>
 <!-- <th>Cust Name</th> -->
-<!-- <th>Address</th> -->
+<th>Address</th>
 <th>Driver</br>Allocated</th>
 <th>Delivery</br>Status</th>
 <th>Confirmation</br>Status</th>
@@ -36,7 +36,7 @@
 <tr>
 <td>{{$row->order_id}}</td>
 <!-- <td>{{$row->name}}</td> -->
-<!-- <td>{{$row->town}} <br> {{$row->postaladdress}}</td> -->
+<td>{{$row->town}} <br> {{$row->address}}</td>
 <td>
 @foreach ($drivers as $driver ) 
  @if($driver->id==$row->driver_id)Driver Id:{{$driver->id}}<br>Name:{{$driver->name}}

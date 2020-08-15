@@ -28,7 +28,7 @@
 <th>Order<br>Id</th>
 <!-- <th>Cust Name</th> -->
 <!-- <th>Ordered</br>goods</th> -->
-<!-- <th>Address</th> -->
+<th>Address</th>
 <th>Allocated</br>Driver</th>
 <th>ACTION</th>
 
@@ -59,7 +59,7 @@
 
 </td> -->
 
-<!-- <td>{{$row->town}} <br> {{$row->postaladdress}}</td> -->
+<td>{{$row->town}} <br> {{$row->address}}</td>
 
  
 <td>
@@ -71,7 +71,7 @@
                                 <option value="-1">Select...</option>
                                         @foreach ($drivers as $driver )
                                         
-                                        <option value="{{ $driver['id'] }}"> {{$driver->id}}:{{$driver->name}}</option>
+                                        <option value="{{ $driver['id'] }}">{{$driver->name}}</option>
                                         
                                          @endforeach
                                     </select>
@@ -80,7 +80,7 @@
                                       </form>             
 @elseif($row->allocation_status == "Allocated")
  @foreach ($drivers as $driver ) 
- @if($driver->id==$row->driver_id)Driver Id:{{$driver->id}}<br>Name:{{$driver->name}}
+ @if($driver->id==$row->driver_id)Name:{{$driver->name}}
  @endif
 @endforeach
  @endif</td>
